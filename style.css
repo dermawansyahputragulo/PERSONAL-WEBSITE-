@@ -4,6 +4,21 @@
     font-family: verdana;
 }
 
+  #bg-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: cover;
+    opacity: 0.3; /* ubah kalau mau lebih gelap/terang */
+}
+  
+  body {
+    background-color: #0b1014;
+}
+
     .navigasi {
     background-color: #3b4997;
     width: 100%;
@@ -41,7 +56,7 @@
         }
 
         .banner {
-            background-color: #3b5999;
+            background-color: rgba(59,89,153, 0.8);
             height: 600px;
             text-align: center;
             color: white;
@@ -97,7 +112,7 @@
 
                     .box-pendidikan {
                         text-align: center;
-                        color: #4d4d4d;
+                        color: white;
                         margin-top: 90px;
                         align-content: center;
                     }
@@ -105,16 +120,16 @@
                     .box-kiri, .box-tengah, .box-kanan {
                         width: 300px;
                         height: 320px;
-                        background-color: #f0f0f0;
+                        background-color: rgba(0, 0, 0, 0.6);
                         text-align: center;
                         padding: 30px 30px;
                         margin: 70px 20px 20px 55px;
-                        border-radius: 10px;
+                        border-radius: 20px;
                         float: left;
                     }
 
                     .box-kiri:hover, .box-tengah:hover, .box-kanan:hover {
-                        background-color: #3b5999;
+                        background-color: rgba(59,89,153, 0.8);
                         color: white;
                     }
 
@@ -126,7 +141,7 @@
 
                     .box-softskill {
                         text-align: center;
-                        color: #4d4d4d;
+                        color: white;
                         margin: 0px auto;
                         margin-top: 560px;
                     }
@@ -145,12 +160,29 @@
 
                             .box-kontak {
                                 text-align: center;
-                                color: #4d4d4d;
+                                color: white;
                                 margin-top: 500px;
                             }
+                            
+                            
+    .box-kontak-card {
+    width: auto;
+    height: 320px;
+    margin: 70px auto;
+    padding: 30px 30px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+.box-kontak-card:hover {
+                        background-color: rgba(59,89,153, 0.8);
+                        color: white;
+                    }
 
                                 .footer {
-                                    background-color: grey;
+                                    background-color: #3b4997;
                                     width: 100%;
                                     height: 40px;
                                     color: white;
